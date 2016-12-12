@@ -30,13 +30,13 @@ int main () {
 	int oneCount = calcFunc (1, userMoneyIn);
 	cout << " $01: " << oneCount << endl;
 	int quarterCount = calcFunc (.25, userMoneyIn);
-	cout << " $.25: " << quarterCount << endl;
+	cout << "$.25: " << quarterCount << endl;
 	int dimeCount = calcFunc (.10, userMoneyIn);
-	cout << " $.10: " << dimeCount << endl;
+	cout << "$.10: " << dimeCount << endl;
 	int nickelCount = calcFunc (.05, userMoneyIn);
-	cout << " $.05: " << nickelCount << endl;
+	cout << "$.05: " << nickelCount << endl;
 	int pennyCount = calcFunc (.01, userMoneyIn);
-	cout << " $.01: " << pennyCount << endl;
+	cout << "$.01: " << pennyCount << endl;
 	return 0;
 }
 
